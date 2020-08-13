@@ -5,7 +5,7 @@ const welcomeRouter = require("./welcome/welcome-router")
 const shoutsRouter = require("./shouts/shouts-router")
 
 const server = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 server.use(express.json())
 server.use(helmet())
