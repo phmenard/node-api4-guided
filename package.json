@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"watch": "nodemon --require .env/config index.js",
+		"watch": "nodemon --require dotenv/config index.js",
 		"start": "node index.js"
 	},
 	"devDependencies": {
